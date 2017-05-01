@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+
+<body>
+	<script>
+		/*
+			Exercise 1
+			The following code does not correctly run (see tests)
+			How should we fix this?
+		*/
+
+		function createCharacter(width, height, name) {
+			char = "(" + width + "x" + height + ") " + name;
+			return char;
+		}
+		//Needed to change the char to char1
+		char1 = createCharacter(10, 12, "Homer");
+		char2 = createCharacter(12, 18, "Barney");
+		char3 = createCharacter(4, 17, "Marge");
+
+		// Tests -- do not edit
+		console.log(char1); // Should log "(10x12) Homer"
+		console.log(char2); // Should log "(12x18) Barney"
+		console.log(char3); // Should log "(4x17) Marge"
+	</script>
+</body>
+
+</html>
